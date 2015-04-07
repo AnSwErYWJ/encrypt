@@ -1,8 +1,8 @@
-#include <stdio.h>  // 标准输入输出函数
-#include <stdlib.h>  // 标准库函数
-#include <string.h>  // 字符串处理函数
-#include <ctype.h>  // 字符操作函数
-#include <conio.h>  // getch()使用
+#include <stdio.h>  //标准输入输出函数
+#include <stdlib.h>  //标准库函数
+#include <string.h>  //字符串处理函数
+#include <ctype.h>  //字符操作函数
+#include <conio.h>  //getch()使用
 
 void printMenu(void);
 int checkPwd(int type);
