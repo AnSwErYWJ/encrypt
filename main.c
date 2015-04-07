@@ -174,7 +174,7 @@ int checkPwd(int type)
     for(trytimes=1; trytimes<=3; trytimes++)
     {
         scanf("%d",&pwd);
-        fflush(stdin);//吃掉空格
+        fflush(stdin);//吃掉回车
         if(pwd==password)
         {
             return 1;
